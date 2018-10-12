@@ -59,7 +59,7 @@ header::after{
 	padding-right: 0;
 }
 .main_manu ul li a:hover{
-	background-color: #11929E;
+	color: #11929E;
 }
 
 /* start banner section */
@@ -121,7 +121,9 @@ header::after{
 .single:last-child, .blog_1:last-child{
 	margin-right: 0;
 }
-.title{}
+.title{
+overflow: hidden;
+}
 .icon{
 	width: 15%;
 	float: left;
